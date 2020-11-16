@@ -20,7 +20,7 @@ class Config(object):
     LOAD = []
     NO_LOAD = ['translation', 'sed']
     WEBHOOK = ANYTHING
-    URL = "https://itsflashbot.herokuapp.com"
+    
 
     # OPTIONAL
     SUDO_USERS = []  # List of id's (not usernames) for users which have sudo access to the bot.
@@ -37,7 +37,7 @@ class Config(object):
     STRICT_GMUTE = True
     ALLOW_EXCL = True  # Allow ! commands as well as /
     API_OPENWEATHER = '' # OpenWeather API
-
+    URL = "https://itsflashbot.herokuapp.com"
     # MEMES
     DEEPFRY_TOKEN = None
 
